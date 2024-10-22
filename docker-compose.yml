@@ -23,7 +23,7 @@ services:
         networks:
             - todonet
     todo_node:
-        image: "244392073887.dkr.ecr.us-east-1.amazonaws.com/techpro-repo/todo-app:nodejs"
+        image: "9750-4999-5227.dkr.ecr.us-east-1.amazonaws.com/techpro-repo/todo-app:nodejs"
         restart: always
         environment:
             SERVER_PORT: 5000
